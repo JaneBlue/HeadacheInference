@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CLIPSApp>
+	<!--CLIPS引擎调用配置文件-->
+	<Config>
+		<Filepath>F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\output\debug\CDSSServer\EngineServer\Rule\</Filepath>
+		<DataModelFileName>DataModel.xml</DataModelFileName>
+		<ManualAddDataModelFileName>ManualAddDataModel.xml</ManualAddDataModelFileName>
+		<ConcludeFileName>Conclude.xml</ConcludeFileName>
+		<LogFlag>1</LogFlag>
+		<LogPath>F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\output\debug\CDSSServer\EngineServer\</LogPath>
+	</Config>
+</CLIPSApp>

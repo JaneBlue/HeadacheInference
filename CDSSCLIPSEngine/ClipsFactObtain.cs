@@ -70,7 +70,7 @@ namespace CDSSCLIPSEngine
 
         public static bool ObtainDataModelWithEventFromCLIPSDataModel(ref vMRClsDef.InputDataModel oInputDataModel)
         {
-            string strFilePath = ClipsConfig.ReadConfig("Filepath");
+            string strFilePath = AppDomain.CurrentDomain.BaseDirectory + ClipsConfig.ReadConfig("Filepath");
             string strDataModelFileName = ClipsConfig.ReadConfig("DataModelFileName");
             string strManualAddDataModelFileName = ClipsConfig.ReadConfig("ManualAddDataModelFileName");
             ObtainDataModel(strFilePath, strDataModelFileName, ref oInputDataModel);
@@ -81,7 +81,7 @@ namespace CDSSCLIPSEngine
 
         public static bool ObtainConcludeWithEventFromCLIPSDataModel(string strEvent, ref List<vMRClsDef.DataModel> lstNewFact)
         {
-            string strFilePath = ClipsConfig.ReadConfig("Filepath");
+            string strFilePath = AppDomain.CurrentDomain.BaseDirectory + ClipsConfig.ReadConfig("Filepath");
             string strConcludeFileName = ClipsConfig.ReadConfig("ConcludeFileName");
             OpenXmlDoc(strFilePath + strConcludeFileName);
 
@@ -159,7 +159,7 @@ namespace CDSSCLIPSEngine
         }
         public static bool ObtainTriggeringEventListFromCLIPSDataModel()
         {
-            string strFilePath = ClipsConfig.ReadConfig("Filepath");
+            string strFilePath = AppDomain.CurrentDomain.BaseDirectory + ClipsConfig.ReadConfig("Filepath");
             string strDataModelFileName = ClipsConfig.ReadConfig("DataModelFileName");
             string strManualAddDataModelFileName = ClipsConfig.ReadConfig("ManualAddDataModelFileName");
 

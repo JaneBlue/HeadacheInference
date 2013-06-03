@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 using System.Configuration;
+using System.Web;
+
+
+
 
 namespace CDSSCLIPSEngine
 {
@@ -17,9 +21,8 @@ namespace CDSSCLIPSEngine
         {
             XmlDocument xmlDoc = new XmlDocument(); 
             //string strNum = ConfigurationManager.AppSettings["CLIPSAPP_PATH"];
-            string str = System.Environment.CurrentDirectory;
-            //xmlDoc.Load("..\\output\\debug\\CDSSServer\\EngineServer\\CLIPSApp.xml");
-            xmlDoc.Load("F:\\¹¤×÷¿Õ¼ä\\HeadacheInferenceWebservice\\HeadacheInferenceWebservice\\output\\debug\\CDSSServer\\EngineServer\\CLIPSApp.xml");
+            string str = AppDomain.CurrentDomain.BaseDirectory;
+            xmlDoc.Load(str + "bin\\CDSSServer\\EngineServer\\CLIPSApp.xml");
             string strNodepath = string.Format("/{0}/{1}/{2}", "CLIPSApp", "Config", strNodeName);
             XmlNode n_Node = xmlDoc.SelectSingleNode(strNodepath);
             return n_Node.InnerText;

@@ -26,6 +26,7 @@ namespace HeadacheInferenceWebservice
         [WebMethod]
         public bool DoInference(InputData InputDataValue, ref string strResult)
         {
+            
             //把传入的数据放入全局变量
             PutdataintoGlobalData(InputDataValue);
 

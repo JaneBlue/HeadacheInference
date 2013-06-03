@@ -233,7 +233,10 @@ namespace CDSSCLIPSEngine
             string strRuleEntrance = ObtainRuleEntrance(strRuleLevel, oTriggeringEvent);
             UserDefinedFun();
             m_oRuleEngine.Watch("all");
-            string strfilepath = ClipsConfig.ReadConfig("Filepath");
+            //////////////////////////////////////////////////////////////////////////
+            string strfilepath = AppDomain.CurrentDomain.BaseDirectory + ClipsConfig.ReadConfig("Filepath");
+
+            //////////////////////////////////////////////////////////////////////////
             m_oRuleEngine.Load(strfilepath + strRuleEntrance); //load rule
             m_oRuleEngine.Load(strfilepath + "function.clp"); //load deffunction
             DataObject d = m_oRuleEngine.CreateDataObject();
@@ -249,8 +252,10 @@ namespace CDSSCLIPSEngine
             string strIEProcessName = 
                 System.DateTime.Now.ToString("yyyyMMddHHmmss") + "_" 
                 + oTriggeringEvent.oEvent.strEventName;
-            string strLogPath = ClipsConfig.ReadConfig("LogPath");
-            string strLogFlag = ClipsConfig.ReadConfig("LogFlag");
+            //////////////////////////////////////////////////////////////////////////
+            string strLogPath = AppDomain.CurrentDomain.BaseDirectory + ClipsConfig.ReadConfig("LogPath");
+            string strLogFlag = AppDomain.CurrentDomain.BaseDirectory + ClipsConfig.ReadConfig("LogFlag");
+            //////////////////////////////////////////////////////////////////////////
             string strIELogDirectory = strLogPath + "IELog\\";
 
             //如果日志文件目录不存在，则创建该目录
