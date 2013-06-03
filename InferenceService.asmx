@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="InferenceService.asmx.cs" Class="HeadacheInferenceWebservice.InferenceService" %>
