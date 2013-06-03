@@ -1,0 +1,22 @@
+<publishData>
+  <publishTarget publishUrl="H:\HeadacheInferenceService\">
+    <file relUrl="bin/CDSSEngine.dll" publishTime="06/03/2013 08:51:14" />
+    <file relUrl="bin/CDSSvMRDataDef.dll" publishTime="06/03/2013 08:51:12" />
+    <file relUrl="bin/CDSSFunction.pdb" publishTime="06/03/2013 08:51:15" />
+    <file relUrl="bin/CDSSSystemData.dll" publishTime="06/03/2013 08:51:14" />
+    <file relUrl="bin/HeadacheInferenceWebservice.dll.config" publishTime="05/16/2013 10:51:49" />
+    <file relUrl="bin/ProAi.Clips.Framework.dll" publishTime="05/16/2013 10:51:05" />
+    <file relUrl="bin/CDSSSystemData.pdb" publishTime="06/03/2013 08:51:14" />
+    <file relUrl="bin/CDSSCLIPSEngine.dll" publishTime="06/03/2013 08:51:13" />
+    <file relUrl="InferenceService.asmx" publishTime="05/23/2013 11:38:58" />
+    <file relUrl="bin/CDSSFunction.dll" publishTime="06/03/2013 08:51:15" />
+    <file relUrl="App.config" publishTime="05/16/2013 10:51:49" />
+    <file relUrl="bin/CDSSvMRDataDef.pdb" publishTime="06/03/2013 08:51:12" />
+    <file relUrl="bin/HeadacheInferenceWebservice.dll" publishTime="06/03/2013 08:51:17" />
+    <file relUrl="Web.config" publishTime="05/23/2013 11:36:42" />
+    <file relUrl="bin/CDSSEngine.pdb" publishTime="06/03/2013 08:51:14" />
+    <file relUrl="bin/CDSSCLIPSEngine.pdb" publishTime="06/03/2013 08:51:13" />
+    <file relUrl="bin/HeadacheInferenceWebservice.pdb" publishTime="06/03/2013 08:51:16" />
+    <file relUrl="bin/Clips.dll" publishTime="05/16/2013 10:51:05" />
+  </publishTarget>
+</publishData>

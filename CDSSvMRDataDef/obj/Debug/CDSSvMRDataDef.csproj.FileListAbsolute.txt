@@ -1,0 +1,5 @@
+F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\output\debug\CDSSvMRDataDef.dll
+F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\output\debug\CDSSvMRDataDef.pdb
+F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\CDSSvMRDataDef\obj\Debug\ResolveAssemblyReference.cache
+F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\CDSSvMRDataDef\obj\Debug\CDSSvMRDataDef.dll
+F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\CDSSvMRDataDef\obj\Debug\CDSSvMRDataDef.pdb

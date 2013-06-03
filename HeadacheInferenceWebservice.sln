@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadacheInferenceWebservice", "HeadacheInferenceWebservice\HeadacheInferenceWebservice.csproj", "{D80C38FF-BFD8-47D4-A607-D2FB888AD30E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSSCLIPSEngine", "CDSSCLIPSEngine\CDSSCLIPSEngine.csproj", "{95C8DA3D-D2DC-41D1-A6D8-0CB413CBD888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSSEngine", "CDSSEngine\CDSSEngine.csproj", "{FD549C89-941C-4993-968C-FB463AB5DB91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSSSystemData", "CDSSSystemData\CDSSSystemData.csproj", "{5D811B17-88EC-4EAB-987D-9546CDCCBBD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSSFunction", "CDSSFunction\CDSSFunction.csproj", "{78C8AE52-D6BB-4191-B49E-D84ED8BA9D39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadacheCDSSTest", "HeadacheCDSSTest\HeadacheCDSSTest.csproj", "{61564A47-1DDA-446A-90DF-32D835FF4161}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D80C38FF-BFD8-47D4-A607-D2FB888AD30E} = {D80C38FF-BFD8-47D4-A607-D2FB888AD30E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSSvMRDataDef", "CDSSvMRDataDef\CDSSvMRDataDef.csproj", "{442D173E-AF88-417E-B68D-065B9070ABCE}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 8
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CDSSCLIPSEngine\\CDSSCLIPSEngine.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = CDSSCLIPSEngine\\
+		SccProjectUniqueName2 = CDSSEngine\\CDSSEngine.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = CDSSEngine\\
+		SccProjectUniqueName3 = CDSSFunction\\CDSSFunction.csproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = CDSSFunction\\
+		SccProjectUniqueName4 = CDSSSystemData\\CDSSSystemData.csproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = CDSSSystemData\\
+		SccProjectUniqueName5 = CDSSvMRDataDef\\CDSSvMRDataDef.csproj
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = CDSSvMRDataDef\\
+		SccProjectUniqueName6 = HeadacheCDSSTest\\HeadacheCDSSTest.csproj
+		SccLocalPath6 = .
+		SccProjectFilePathRelativizedFromConnection6 = HeadacheCDSSTest\\
+		SccProjectUniqueName7 = HeadacheInferenceWebservice\\HeadacheInferenceWebservice.csproj
+		SccLocalPath7 = .
+		SccProjectFilePathRelativizedFromConnection7 = HeadacheInferenceWebservice\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D80C38FF-BFD8-47D4-A607-D2FB888AD30E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80C38FF-BFD8-47D4-A607-D2FB888AD30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80C38FF-BFD8-47D4-A607-D2FB888AD30E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80C38FF-BFD8-47D4-A607-D2FB888AD30E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C8DA3D-D2DC-41D1-A6D8-0CB413CBD888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C8DA3D-D2DC-41D1-A6D8-0CB413CBD888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C8DA3D-D2DC-41D1-A6D8-0CB413CBD888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C8DA3D-D2DC-41D1-A6D8-0CB413CBD888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD549C89-941C-4993-968C-FB463AB5DB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD549C89-941C-4993-968C-FB463AB5DB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD549C89-941C-4993-968C-FB463AB5DB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD549C89-941C-4993-968C-FB463AB5DB91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D811B17-88EC-4EAB-987D-9546CDCCBBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D811B17-88EC-4EAB-987D-9546CDCCBBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D811B17-88EC-4EAB-987D-9546CDCCBBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D811B17-88EC-4EAB-987D-9546CDCCBBD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C8AE52-D6BB-4191-B49E-D84ED8BA9D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C8AE52-D6BB-4191-B49E-D84ED8BA9D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C8AE52-D6BB-4191-B49E-D84ED8BA9D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C8AE52-D6BB-4191-B49E-D84ED8BA9D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61564A47-1DDA-446A-90DF-32D835FF4161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61564A47-1DDA-446A-90DF-32D835FF4161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61564A47-1DDA-446A-90DF-32D835FF4161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61564A47-1DDA-446A-90DF-32D835FF4161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442D173E-AF88-417E-B68D-065B9070ABCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442D173E-AF88-417E-B68D-065B9070ABCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442D173E-AF88-417E-B68D-065B9070ABCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442D173E-AF88-417E-B68D-065B9070ABCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

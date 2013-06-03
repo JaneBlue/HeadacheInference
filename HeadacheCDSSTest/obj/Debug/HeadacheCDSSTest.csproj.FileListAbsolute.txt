@@ -1,0 +1,9 @@
+F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\output\debug\HeadacheCDSSTest.exe.config
+F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\output\debug\HeadacheCDSSTest.exe
+F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\output\debug\HeadacheCDSSTest.pdb
+F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\HeadacheCDSSTest\obj\Debug\ResolveAssemblyReference.cache
+F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\HeadacheCDSSTest\obj\Debug\HeadacheCDSSTest.Form1.resources
+F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\HeadacheCDSSTest\obj\Debug\HeadacheCDSSTest.Properties.Resources.resources
+F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\HeadacheCDSSTest\obj\Debug\HeadacheCDSSTest.csproj.GenerateResource.Cache
+F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\HeadacheCDSSTest\obj\Debug\HeadacheCDSSTest.exe
+F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\HeadacheCDSSTest\obj\Debug\HeadacheCDSSTest.pdb
