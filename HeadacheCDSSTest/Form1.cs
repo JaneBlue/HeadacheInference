@@ -30,7 +30,7 @@ namespace HeadacheCDSSTest
               }
               else if(comboBoxUnit.SelectedIndex == 1)
               {
-                  InputDataValue.m_nHeadache_Duration_PerTime_Unit = "分";
+                  InputDataValue.m_nHeadache_Duration_PerTime_Unit = "分钟";
               }
               else if (comboBoxUnit.SelectedIndex == 2)
               {

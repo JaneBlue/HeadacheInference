@@ -43,46 +43,43 @@ namespace HeadacheInferenceWebservice
             //把InputDataValue的值放进Globaldata里面
             //先兆
             GlobalData.HeadacheAnnotation.Clear();
-            foreach(HeadacheAura aura in InputDataValue.m_HeadacheAuraList)
+            foreach (HeadacheAura aura in InputDataValue.m_HeadacheAuraList)
             {
                 HeadachePlus2 headacheaura = new HeadachePlus2();
                 headacheaura.Aspect = "HeadacheAura";
-                if(aura == HeadacheAura.Hemi_Visual_Aura)
+                if (aura == HeadacheAura.Hemi_Visual_Aura)
                 {
                     headacheaura.AspectName = "单侧视觉";
                     headacheaura.Note = "单侧视觉先兆";
-                   
+
                 }
-                else if(aura == HeadacheAura.Bilateral_Visual_Aura)
+                else if (aura == HeadacheAura.Bilateral_Visual_Aura)
                 {
                     headacheaura.AspectName = "双侧视觉";
                     headacheaura.Note = "双侧视觉先兆";
-                 
+
                 }
-                else if(aura == HeadacheAura.Feeling_Aura)
+                else if (aura == HeadacheAura.Feeling_Aura)
                 {
                     headacheaura.AspectName = "感觉";
                     headacheaura.Note = "感觉先兆";
-                   
+
                 }
-                else if(aura == HeadacheAura.Allolalia)
+                else if (aura == HeadacheAura.Allolalia)
                 {
                     headacheaura.AspectName = "语言障碍";
                     headacheaura.Note = "言语障碍";
-                   
+
                 }
-                else if(aura == HeadacheAura.Dyscinesia)
+                else if (aura == HeadacheAura.Dyscinesia)
                 {
                     headacheaura.AspectName = "运动障碍";
                     headacheaura.Note = "运动障碍";
-                   
+
                 }
                 GlobalData.HeadacheAnnotation.HeadacheAura.Add(headacheaura);
-                
-                
 
-            }
-            
+            }           
             //头痛每次持续时间
             GlobalData.HeadacheAnnotation.LastTimeBefore = InputDataValue.m_nHeadache_Duration_PerTime;
             //头痛每次持续时间的单位
@@ -238,39 +235,41 @@ namespace HeadacheInferenceWebservice
                 
             }
 
-            foreach (HeadacheAura aura in InputDataValue.m_HeadacheAuraList)
-            {
-                if(aura == HeadacheAura.Allolalia)
-                {
-                    HeadachePlus2 auravision = new HeadachePlus2();
-                    auravision.AspectName = "语言障碍";
-                    GlobalData.HeadacheAnnotation.HeadacheAura.Add(auravision); 
-                }
-                if(aura == HeadacheAura.Bilateral_Visual_Aura)
-                {
-                    HeadachePlus2 auravision = new HeadachePlus2();
-                    auravision.AspectName = "双侧视觉";
-                    GlobalData.HeadacheAnnotation.HeadacheAura.Add(auravision);
-                }
-                if(aura == HeadacheAura.Dyscinesia)
-                {
-                    HeadachePlus2 auravision = new HeadachePlus2();
-                    auravision.AspectName = "运动障碍";
-                    GlobalData.HeadacheAnnotation.HeadacheAura.Add(auravision);
-                }
-                if(aura == HeadacheAura.Feeling_Aura)
-                {
-                    HeadachePlus2 auravision = new HeadachePlus2();
-                    auravision.AspectName = "感觉";
-                    GlobalData.HeadacheAnnotation.HeadacheAura.Add(auravision);
-                }
-                if(aura == HeadacheAura.Hemi_Visual_Aura)
-                {
-                    HeadachePlus2 auravision = new HeadachePlus2();
-                    auravision.AspectName = "单侧视觉";
-                    GlobalData.HeadacheAnnotation.HeadacheAura.Add(auravision);
-                }
-            }
+           
+
+//             foreach (HeadacheAura aura in InputDataValue.m_HeadacheAuraList)
+//             {
+//                 if(aura == HeadacheAura.Allolalia)
+//                 {
+//                     HeadachePlus2 auravision = new HeadachePlus2();
+//                     auravision.AspectName = "语言障碍";
+//                     GlobalData.HeadacheAnnotation.HeadacheAura.Add(auravision); 
+//                 }
+//                 if(aura == HeadacheAura.Bilateral_Visual_Aura)
+//                 {
+//                     HeadachePlus2 auravision = new HeadachePlus2();
+//                     auravision.AspectName = "双侧视觉";
+//                     GlobalData.HeadacheAnnotation.HeadacheAura.Add(auravision);
+//                 }
+//                 if(aura == HeadacheAura.Dyscinesia)
+//                 {
+//                     HeadachePlus2 auravision = new HeadachePlus2();
+//                     auravision.AspectName = "运动障碍";
+//                     GlobalData.HeadacheAnnotation.HeadacheAura.Add(auravision);
+//                 }
+//                 if(aura == HeadacheAura.Feeling_Aura)
+//                 {
+//                     HeadachePlus2 auravision = new HeadachePlus2();
+//                     auravision.AspectName = "感觉";
+//                     GlobalData.HeadacheAnnotation.HeadacheAura.Add(auravision);
+//                 }
+//                 if(aura == HeadacheAura.Hemi_Visual_Aura)
+//                 {
+//                     HeadachePlus2 auravision = new HeadachePlus2();
+//                     auravision.AspectName = "单侧视觉";
+//                     GlobalData.HeadacheAnnotation.HeadacheAura.Add(auravision);
+//                 }
+//             }
 
             return true;
         }

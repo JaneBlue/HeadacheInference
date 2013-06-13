@@ -144,17 +144,27 @@ namespace CDSSFunction
                     }
                    }
                     return "No";
-                case "H000111"://视觉先兆（点状、色斑）
+                case "H000111"://双侧视觉先兆（点状、色斑）
                   foreach(  HeadachePlus2 aura in GlobalData.HeadacheAnnotation.HeadacheAura )
                    {
-                    if(aura.AspectName == "视觉")
-                    {
-                        return "Yes";
-                    }
+                        if(aura.AspectName == "双侧视觉")
+                        {
+                            return "Yes";
+                        }
                    }
                     return "No"; 
 
-                    case "H000113"://言语障碍
+                case "H000125"://单侧视觉先兆
+                    foreach (HeadachePlus2 aura in GlobalData.HeadacheAnnotation.HeadacheAura)
+                    {
+                        if (aura.AspectName == "单侧视觉")
+                        {
+                            return "Yes";
+                        }
+                    }
+                    return "No"; 
+
+                case "H000113"://言语障碍
                    foreach(  HeadachePlus2 aura in GlobalData.HeadacheAnnotation.HeadacheAura )
                    {
                     if(aura.AspectName == "语言障碍")
@@ -162,8 +172,17 @@ namespace CDSSFunction
                         return "Yes";
                     }
                    }
-                    return "No";
+                   return "No";
 
+                case "H000114"://运动障碍
+                   foreach (HeadachePlus2 aura in GlobalData.HeadacheAnnotation.HeadacheAura)
+                   {
+                       if (aura.AspectName == "运动障碍")
+                       {
+                           return "Yes";
+                       }
+                   }
+                   return "No";
                     case "000003"://头痛总次数
 //                     if (GlobalData.HeadacheAnnotation.HeadacheTrait == "类似发作<5次")
 //                    {
@@ -252,6 +271,10 @@ namespace CDSSFunction
                          if(GlobalData.HeadacheAnnotation.LastTimeBeforeUnit=="天")
                          {
                             time = GlobalData.HeadacheAnnotation.LastTimeBefore * 24;
+                         }
+                         if (GlobalData.HeadacheAnnotation.LastTimeBeforeUnit == "秒")
+                         {
+                             time = GlobalData.HeadacheAnnotation.LastTimeBefore / 3600;
                          }
                     return time.ToString();
                   case "H000119"://曲普坦类药物总服药时长

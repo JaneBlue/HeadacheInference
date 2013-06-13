@@ -5,7 +5,7 @@
 =>
 (bind ?Threshhold 0)
 
-(bind ?CIL010 (Leaf < ?Headache_Duration_Variable 3.0 Headache_Duration_Variable))
+(bind ?CIL010 (Leaf >= ?Headache_Duration_Variable 3.0 Headache_Duration_Variable))
 (bind ?RI0 ?CIL010)
 (if
 (eq ?RI0 TRUE)
@@ -13,7 +13,7 @@ then
 (bind ?Threshhold (+ ?Threshhold 1))
 )
 
-(bind ?CIL110 (Leaf < ?Headache_Monthly_Duration_Variable 15.0 Headache_Monthly_Duration_Variable))
+(bind ?CIL110 (Leaf >= ?Headache_Monthly_Duration_Variable 15.0 Headache_Monthly_Duration_Variable))
 (bind ?RI1 ?CIL110)
 (if
 (eq ?RI1 TRUE)
@@ -28,7 +28,7 @@ then
 then
 (bind ?ShortData FALSE)
 )
-(if(NotifyOrNot >= ?Threshhold 1 ?ShortData ?filepath Headache_Class1)
+(if(NotifyOrNot <= ?Threshhold 1 ?ShortData ?filepath Headache_Class1)
 then
 (undefrule *)
 (InterpretationIndex "NO_VALUE")

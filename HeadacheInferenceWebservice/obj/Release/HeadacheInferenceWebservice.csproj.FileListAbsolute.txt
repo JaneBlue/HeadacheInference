@@ -1,4 +1,3 @@
-F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\HeadacheInferenceWebservice\bin\HeadacheInferenceWebservice.dll.config
 F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\HeadacheInferenceWebservice\bin\HeadacheInferenceWebservice.dll
 F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\HeadacheInferenceWebservice\bin\HeadacheInferenceWebservice.pdb
 F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\HeadacheInferenceWebservice\bin\CDSSFunction.dll
