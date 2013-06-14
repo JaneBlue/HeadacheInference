@@ -189,6 +189,10 @@ namespace HeadacheInferenceWebservice
             {
                 GlobalData.HeadacheAnnotation.HeadacheType = "过电";
             }
+            else if (InputDataValue.m_nHeadahceProperty == HeadacheProperty.Other)
+            {
+                GlobalData.HeadacheAnnotation.HeadacheType = "其他";
+            }
 
             foreach (HeadacheAssociatedSymptoms AssociatedSymptoms in InputDataValue.m_HeadacheAssociatedSymptonList)
             {
@@ -318,7 +322,8 @@ namespace HeadacheInferenceWebservice
     {
         Pulse_Pain,                      //搏动痛
         Pressure_Pain,                   //压迫痛
-        Electric_Shock_Like_Pain         //过电样痛
+        Electric_Shock_Like_Pain,        //过电样痛
+        Other                            //其他
     }
 
 

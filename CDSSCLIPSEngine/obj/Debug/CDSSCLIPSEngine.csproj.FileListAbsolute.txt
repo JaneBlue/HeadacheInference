@@ -3,3 +3,8 @@ F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\output\d
 F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\CDSSCLIPSEngine\obj\Debug\ResolveAssemblyReference.cache
 F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\CDSSCLIPSEngine\obj\Debug\CDSSCLIPSEngine.dll
 F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\CDSSCLIPSEngine\obj\Debug\CDSSCLIPSEngine.pdb
+C:\Users\yzm\Documents\GitHub\HeadacheInference\output\debug\CDSSCLIPSEngine.dll
+C:\Users\yzm\Documents\GitHub\HeadacheInference\output\debug\CDSSCLIPSEngine.pdb
+C:\Users\yzm\Documents\GitHub\HeadacheInference\CDSSCLIPSEngine\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yzm\Documents\GitHub\HeadacheInference\CDSSCLIPSEngine\obj\Debug\CDSSCLIPSEngine.dll
+C:\Users\yzm\Documents\GitHub\HeadacheInference\CDSSCLIPSEngine\obj\Debug\CDSSCLIPSEngine.pdb

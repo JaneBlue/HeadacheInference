@@ -7,3 +7,12 @@ F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\Headache
 F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\HeadacheCDSSTest\obj\Debug\HeadacheCDSSTest.csproj.GenerateResource.Cache
 F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\HeadacheCDSSTest\obj\Debug\HeadacheCDSSTest.exe
 F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\HeadacheCDSSTest\obj\Debug\HeadacheCDSSTest.pdb
+C:\Users\yzm\Documents\GitHub\HeadacheInference\output\debug\HeadacheCDSSTest.exe.config
+C:\Users\yzm\Documents\GitHub\HeadacheInference\output\debug\HeadacheCDSSTest.exe
+C:\Users\yzm\Documents\GitHub\HeadacheInference\output\debug\HeadacheCDSSTest.pdb
+C:\Users\yzm\Documents\GitHub\HeadacheInference\HeadacheCDSSTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yzm\Documents\GitHub\HeadacheInference\HeadacheCDSSTest\obj\Debug\HeadacheCDSSTest.Form1.resources
+C:\Users\yzm\Documents\GitHub\HeadacheInference\HeadacheCDSSTest\obj\Debug\HeadacheCDSSTest.Properties.Resources.resources
+C:\Users\yzm\Documents\GitHub\HeadacheInference\HeadacheCDSSTest\obj\Debug\HeadacheCDSSTest.csproj.GenerateResource.Cache
+C:\Users\yzm\Documents\GitHub\HeadacheInference\HeadacheCDSSTest\obj\Debug\HeadacheCDSSTest.exe
+C:\Users\yzm\Documents\GitHub\HeadacheInference\HeadacheCDSSTest\obj\Debug\HeadacheCDSSTest.pdb

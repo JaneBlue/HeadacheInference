@@ -3,3 +3,8 @@ F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\output\d
 F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\CDSSSystemData\obj\Debug\ResolveAssemblyReference.cache
 F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\CDSSSystemData\obj\Debug\CDSSSystemData.dll
 F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\CDSSSystemData\obj\Debug\CDSSSystemData.pdb
+C:\Users\yzm\Documents\GitHub\HeadacheInference\output\debug\CDSSSystemData.dll
+C:\Users\yzm\Documents\GitHub\HeadacheInference\output\debug\CDSSSystemData.pdb
+C:\Users\yzm\Documents\GitHub\HeadacheInference\CDSSSystemData\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yzm\Documents\GitHub\HeadacheInference\CDSSSystemData\obj\Debug\CDSSSystemData.dll
+C:\Users\yzm\Documents\GitHub\HeadacheInference\CDSSSystemData\obj\Debug\CDSSSystemData.pdb

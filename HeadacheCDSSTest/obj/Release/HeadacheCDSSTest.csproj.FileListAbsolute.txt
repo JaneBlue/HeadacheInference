@@ -9,3 +9,14 @@ F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\Headache
 F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\HeadacheCDSSTest\obj\Release\HeadacheCDSSTest.exe
 F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\HeadacheCDSSTest\obj\Release\HeadacheCDSSTest.pdb
 F:\工作空间\HeadacheInferenceWebservice\HeadacheInferenceWebservice\HeadacheCDSSTest\obj\Release\HeadacheCDSSTest.XmlSerializers.dll
+C:\Users\yzm\Documents\GitHub\HeadacheInference\HeadacheCDSSTest\bin\Release\HeadacheCDSSTest.exe.config
+C:\Users\yzm\Documents\GitHub\HeadacheInference\HeadacheCDSSTest\obj\Release\HeadacheCDSSTest.exe
+C:\Users\yzm\Documents\GitHub\HeadacheInference\HeadacheCDSSTest\obj\Release\HeadacheCDSSTest.pdb
+C:\Users\yzm\Documents\GitHub\HeadacheInference\HeadacheCDSSTest\obj\Release\HeadacheCDSSTest.XmlSerializers.dll
+C:\Users\yzm\Documents\GitHub\HeadacheInference\HeadacheCDSSTest\bin\Release\HeadacheCDSSTest.exe
+C:\Users\yzm\Documents\GitHub\HeadacheInference\HeadacheCDSSTest\bin\Release\HeadacheCDSSTest.XmlSerializers.dll
+C:\Users\yzm\Documents\GitHub\HeadacheInference\HeadacheCDSSTest\bin\Release\HeadacheCDSSTest.pdb
+C:\Users\yzm\Documents\GitHub\HeadacheInference\HeadacheCDSSTest\obj\Release\ResolveAssemblyReference.cache
+C:\Users\yzm\Documents\GitHub\HeadacheInference\HeadacheCDSSTest\obj\Release\HeadacheCDSSTest.Form1.resources
+C:\Users\yzm\Documents\GitHub\HeadacheInference\HeadacheCDSSTest\obj\Release\HeadacheCDSSTest.Properties.Resources.resources
+C:\Users\yzm\Documents\GitHub\HeadacheInference\HeadacheCDSSTest\obj\Release\HeadacheCDSSTest.csproj.GenerateResource.Cache
